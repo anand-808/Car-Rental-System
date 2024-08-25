@@ -5,7 +5,7 @@
 
 ## Overview
 
-The Car Rental System is a comprehensive application designed to manage car rentals. This project focuses on database management and integration, providing a robust schema to handle various aspects of car rental operations, including dealers, customers, car details, and bookings. 
+The Car Rental System is a comprehensive application designed to manage car rentals. This project focuses on database management and integration, providing a robust schema to handle various aspects of car rental operations, including dealers, customers, car details, and bookings. Built with Django, a high-level Python web framework, it leverages Django's ORM, admin interface, and templating system to simplify web development. 
 
 ## Features
 
@@ -139,36 +139,5 @@ The database schema is defined in `sql.txt`, which includes the following tables
 - **`home/`**: Manages the homepage and application views.
 - **`db.sqlite3`**: The SQLite database file (used for development).
 - **`manage.py`**: Django’s command-line utility for administrative tasks.
-
-## Development
-
-To contribute to the project, follow these steps:
-
-1. **Create a Branch**
-
-   ```bash
-   git checkout -b your-feature-branch
-   ```
-
-2. **Make Your Changes**
-
-3. **Commit Your Changes**
-
-   ```bash
-   git add .
-   git commit -m "Description of your changes"
-   ```
-
-4. **Push to GitHub**
-
-   ```bash
-   git push origin your-feature-branch
-   ```
-
-5. **Create a Pull Request**
-
-   Go to the repository on GitHub and create a pull request from your branch.
-
-
 
 ---
